@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var splitbillLabel: UILabel!
     @IBOutlet weak var peopleLabel: UILabel!
     @IBOutlet weak var pluralLabel: UILabel!
+    @IBOutlet weak var clickhereButton: UIButton!
     
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var logoImageView: UIImageView!
@@ -35,6 +36,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        billField.becomeFirstResponder()
         
         applyMotionEffect(toView: backgroundImageView, magnitude: 10)
         applyMotionEffect(toView: logoImageView, magnitude: -20)
@@ -81,7 +84,18 @@ class ViewController: UIViewController {
         group.motionEffects = [xMotion, yMotion]
         
         view.addMotionEffect(group)
-        
     }
+    
+    // Applying a rotating image effect
+    @IBAction func rotateEgg(sender: AnyObject) {
+        UIView.animateWithDuration(1.0, animations: ({
+            self.logoImageView.transform = CGAffineTransformMakeRotation( 180 * CGFloat(M_PI/180))
+            self.logoImageView.transform = CGAffineTransformMakeRotation(-1 * CGFloat(M_PI/180))
+        }))
+        
+
+
+    }
+    
 }
 
