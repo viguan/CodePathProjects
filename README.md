@@ -4,7 +4,7 @@
 
 Submitted by: **Vicky Guan**
 
-Time spent: **5** hours spent in total
+Time spent: **7** hours spent in total
 
 ## User Stories
 
@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="http://imgur.com/a/1zJqB" title="img" width="200" alt="img">
+<img src="http://imgur.com/VuiuLZQ" title="img" width="200" alt="img">
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
