@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/a/1zJqB' title='tippy Calculator Walkthrough' width='' alt='tippy Calculator Walkthrough' />
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/1zJqB"><a href="//imgur.com/1zJqB">tippy Calculator</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
